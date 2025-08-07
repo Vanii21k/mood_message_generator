@@ -19,29 +19,14 @@ h1 {
   margin-bottom: 20px;
 }
 
-a.button {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #fff;
-  color: #0072ff;
-  border-radius: 20px;
-  text-decoration: none;
+select, button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+#messageOutput {
+  margin-top: 1.5rem;
   font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-a.button:hover {
-  background: #e0e0e0;
-}
-
-.message {
-  margin-top: 30px;
-  font-size: 1.2rem;
-  display: none;
-  color: #fff;
-}
-
-.message:target {
-  display: block;
+  color: #333;
 }
